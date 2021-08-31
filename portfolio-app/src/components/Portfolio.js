@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 // setHOOKS - helps you retain value or update values
 
 function Portfolio() {
-    const [projectList, setProject] = useState(["Code-Quiz", "Weather Dashbaord", "Password Generator"]);
+    const [projectList, setProject] = useState(["Pet-Hub", "Team-Profile Generator", "Readme-Generator", "Day Planner", "Note-Taker"]);
     return (
         <section id="work" className="page-section">
            <ul>Details Here: 
