@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 //Functional Components  - Pure Componenets 
 // setHOOKS - helps you retain value or update values
@@ -6,17 +6,20 @@ import React, {useState} from 'react';
 function Portfolio() {
     const [projectList, setProject] = useState(["Pet-Hub", "Team-Profile Generator", "Readme-Generator", "Day Planner", "Note-Taker"]);
     return (
-        <section id="work" className="page-section">
-           <ul>Details Here: 
-
-               <li><a href="">{projectList[0]}</a></li>
-               <li>{projectList[1]}</li>
-               <li>{projectList[2]}</li>
-           {/* {projectList.map((project, index) =>{ */}
-            
-           {/* })} */}
-           </ul>
-        </section>
+        <div className="container">
+            <section id="work" className="page-section">
+                <h1>Portfolio </h1>
+                <div className="workContainer">
+                    <ul className="work-item">
+                        {/* looping through all the projectList */}
+                        {projectList.map((project, index) => {
+                            //    console.log(project,)
+                            return <li key={index} className={'item' + index}><a href="">{project}</a></li>
+                        })}
+                    </ul>
+                </div>
+            </section>
+        </div>
     )
 }
 
