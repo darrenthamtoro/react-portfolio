@@ -12,6 +12,9 @@ function Resume() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
+                    <nav>
+                    <a href="file:///Users/darrenthamtoro/Downloads/Updated%20resume.pdf">Resume</a>
+                    </nav>
                 </ul>
             </section>
         </div>
