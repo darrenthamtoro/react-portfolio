@@ -136,6 +136,7 @@ width: 200px;
 text-align: right;
 line-height: 1;
 padding-right: 10px;
+
 }
 .page-section div{
 padding: 20px;
@@ -209,7 +210,10 @@ background-image: url("https://thumbs.dreamstime.com/b/white-wood-wall-texture-b
 background-repeat: no-repeat;
 background-size: cover;
 }
-
+.resume-info{
+  color: black;
+  font-weight: 600;
+}
 /* Applying for a mobile screen */
 @media screen and (max-width: 575px){
   header h1 { 
